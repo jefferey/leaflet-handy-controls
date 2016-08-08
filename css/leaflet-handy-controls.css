@@ -1,0 +1,122 @@
+/* ************************************************************************** */
+/* leaflet-handy-controls                                                     */
+/* http://github.com/jefferey/leaflet-handy-controls                          */
+/*                                                                            */
+/* Author: Jeff Smith [ www.jeffereysmith.com ]                               */
+/* License: MIT License                                                       */
+/* ************************************************************************** */
+.handy-toggle-button {
+  background-color: #fff;
+  color: #000;
+  min-width: 26px;
+  min-height: 26px;
+  line-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 4px;
+  float: left;
+}
+.handy-toggle-button.toggled-on {
+  background-color: #3e84c1;
+  color: #fff;
+}
+.handy-slider-container {
+  padding: 3px;
+  border-radius: 4px;
+  float: left;
+  display: block;
+}
+.handy-slider-container input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d;
+  background: #aaa;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+.handy-slider-container input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5), 0px 0px 0px rgba(13, 13, 13, 0.5);
+  border: 1px solid #000000;
+  height: 18px;
+  width: 12px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6.2px;
+}
+.handy-slider-container input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+.handy-slider-container input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d;
+  background: #aaa;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+.handy-slider-container input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5), 0px 0px 0px rgba(13, 13, 13, 0.5);
+  border: 1px solid #000000;
+  height: 18px;
+  width: 12px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+.handy-slider-container input[type=range]::-ms-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.handy-slider-container input[type=range]::-ms-fill-lower {
+  background: #aaa;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d;
+}
+.handy-slider-container input[type=range]::-ms-fill-upper {
+  background: #aaa;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d;
+}
+.handy-slider-container input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5), 0px 0px 0px rgba(13, 13, 13, 0.5);
+  border: 1px solid #000000;
+  height: 18px;
+  width: 12px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 12px;
+}
+.handy-slider-container input[type=range]:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.handy-slider-container input[type=range]:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.handy-slider-container input[type=range]:focus {
+  outline: none;
+}
+.handy-group .handy-slider-container {
+  display: none;
+  background-color: #3e84c1;
+}
+.handy-group:hover .handy-toggle-button.toggled-on {
+  border-radius: 4px 0px 0px 4px;
+}
+.handy-group:hover .handy-toggle-button.toggled-on + .handy-slider-container {
+  display: block;
+  background-color: #3e84c1;
+  border-radius: 0px 4px 4px 0px;
+}
