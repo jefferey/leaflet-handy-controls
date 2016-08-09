@@ -1,6 +1,6 @@
 {
   "name": "leaflet-handy-controls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a leaflet extension containing a collection of useful controls",
   "main": "src/leaflet-handy-controls.js",
   "style": "css/leaflet-handy-controls.css",
