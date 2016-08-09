@@ -22,7 +22,7 @@
     "control",
     "map"
   ],
-  "author": "Jeff Smith (www.jeffereysmith.com)",
+  "author": "Jeff Smith <www.jeffereysmith.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jefferey/leaflet-handy-controls/issues"
