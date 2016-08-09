@@ -1,0 +1,31 @@
+{
+  "name": "leaflet-handy-controls",
+  "version": "1.0.0",
+  "description": "a leaflet extension containing a collection of useful controls",
+  "main": "leaflet-handy-controls.js",
+  "style": "css/leaflet-handy-controls.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefferey/leaflet-handy-controls.git"
+  },
+  "keywords": [
+    "leaflet",
+    "toggle",
+    "button",
+    "slider",
+    "togglebutton",
+    "toggleslider",
+    "handy",
+    "control",
+    "map"
+  ],
+  "author": "Jeff Smith (www.jeffereysmith.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jefferey/leaflet-handy-controls/issues"
+  },
+  "homepage": "https://github.com/jefferey/leaflet-handy-controls#readme"
+}
