@@ -2,7 +2,7 @@
   "name": "leaflet-handy-controls",
   "version": "1.0.0",
   "description": "a leaflet extension containing a collection of useful controls",
-  "main": "leaflet-handy-controls.js",
+  "main": "src/leaflet-handy-controls.js",
   "style": "css/leaflet-handy-controls.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
